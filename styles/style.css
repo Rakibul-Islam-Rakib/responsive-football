@@ -98,6 +98,7 @@ main {
 }
 
 /* -----------------------players part style end ----------------------- */
+
 /* ---------------------------------
           top team part style start
    ---------------------------------*/
@@ -118,8 +119,8 @@ main {
     width: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding-bottom: 20px;
+    align-items: center;
     border-radius: 20px;
     box-shadow: 10px 10px 20px gainsboro;
 
@@ -138,6 +139,8 @@ span {
 
 .team-pic img {
     width: 100%;
+    height: 250px;
+
 
 }
 
@@ -149,9 +152,58 @@ span {
 
 /* ----------------------top team part style end------------------------------- */
 
-/* ----------------------------
-        footer part style start
-----------------------------------*/
+/* ------------------follow cop america style start ----------------------------*/
+.copa-america {
+    display: flex;
+    justify-content: center;
+    margin-top: 158px;
+    margin-bottom: 158px;
+}
+
+.copa-banner {
+    background-color: rgb(7, 7, 48);
+    width: 1350px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.follow-text {
+    padding-bottom: 20px;
+}
+
+.follow-text h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.follow-text a {
+    text-decoration: none;
+    background-color: yellow;
+    color: gray;
+    font-size: 15px;
+    padding: 10px 40px;
+    font-weight: 900;
+    border-radius: 20px;
+}
+
+.follow-text a:hover {
+    background-color: cyan;
+}
+
+.follow-icon {
+    padding-top: 20px;
+}
+
+.follow-icon img {
+    width: 80px;
+    height: 50px;
+}
+
+/* ---------------------follow copa america style end ------------------------------ */
 /*---------------------
   Footer Style Start 
   ---------------------*/
