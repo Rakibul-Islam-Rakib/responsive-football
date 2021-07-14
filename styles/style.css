@@ -99,6 +99,7 @@ main {
 
 /* -----------------------players part style end ----------------------- */
 
+
 /* ---------------------------------
           top team part style start
    ---------------------------------*/
@@ -244,3 +245,42 @@ footer img {
 }
 
 /*--------------- Footer Style End----------------- */
+/*---------------------------
+           Media Queries
+-------------------------- */
+
+/* Mobile Devices */
+
+@media only screen and (max-width: 688px) {
+
+    header {
+        display: none;
+
+    }
+
+    .container,
+    .teams {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+    .player,
+    .player-info {
+
+        flex-direction: column;
+
+    }
+
+    footer {
+        width: 100%;
+
+    }
+
+}
